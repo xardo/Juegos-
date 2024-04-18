@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ubisoft</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="main.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="/img/ubisoft.png" alt="easyclass" />
+                <h4>Ubisoft</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Bienvenido</h2>
+                <h6>¿No estas registrado?</h6>
+                <a href="#" class="toggle">Registrate</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="emai1" required id="email2"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password" required id="password-login"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Contraseña</label>
+                </div>
+
+                <input type="submit" value="Inicia sesion" required id="login" class="sign-btn" />
+
+                <p class="text">
+                    ¿Olvidó su contraseña o sus datos de inicio de sesión?
+                  <a href="#">Consigue ayuda</a> Recuperando tu cuenta
+                </p>
+              </div>
+            </form>
+
+            <form action="#" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="/img/ubisoft.png" alt="easyclass" />
+                <h4>Ubisofth>
+              </div>
+
+              <div class="heading">
+                <h2>Empezemos</h2>
+                <h6>¿Ya tienes una cuenta?</h6>
+                <a href="#" class="toggle">Inicia sesion</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Nombre</label>
+                  <input
+                  type="name" required id="name"
+                  class="input-field"
+                  autocomplete="off"
+                  required
+                />
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email" required id="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password" required id="password-register"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Contraseña</label>
+                </div>
+
+                <input type="submit" value="Registrate" id="register" class="sign-btn" />
+
+                <p class="text">
+                    Al registrarme, acepto los
+                  <a href="#">Terminos y condiciones</a> y
+                  <a href="#">Politica de privacidad</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="/img/bioshok.jpg" class="image img-1 show" alt="" />
+              <img src="/img/no mans sky.png" class="image img-2" alt="" />
+              <img src="/img/valorant.jpg" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Disfruta del mundo gaming</h2>
+                  
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    
+
+    <script src="/js/loginandregister.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
